@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF科研图原尺寸转可编辑PPT"
+  short_description: "将PDF科研图按原始尺寸拆成可编辑PPT，保留文字、矢量、图像与分组"
+  default_prompt: "使用 $reconstruct-pdf-figures，将这份PDF图按原始页面尺寸重建成可编辑PPT，并检查裁切、分组和渲染效果。"
