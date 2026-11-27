@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "background": "#FFFFFF",
+  "panels": {},
+  "raster_regions": [],
+  "images": {},
+  "text": {
+    "baseline_factor": 0.994,
+    "font_map": [
+      {"pattern": "Harding|Times|Georgia|Cambria", "family": "Times New Roman"},
+      {"pattern": ".*", "family": "Arial"}
+    ],
+    "adjustments": []
+  }
+}
