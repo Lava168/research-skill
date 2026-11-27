@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "source": {
+    "sha256": "72b3220aead7d08361bd78252bb54f68cdad0c9d9d2ce478c5b3dcf78407bd90",
+    "page_number": 1,
+    "width_pt": 595.2760009765625,
+    "height_pt": 790.8660278320312
+  },
+  "background": "#FFFFFF",
+  "panels": {
+    "a": {
+      "bbox": [
+        39,
+        46,
+        345,
+        194
+      ],
+      "name": "a｜研究流程"
+    },
+    "b": {
+      "bbox": [
+        348,
+        46,
+        530,
+        194
+      ],
+      "name": "b｜细胞分布"
+    },
+    "c": {
+      "bbox": [
+        40,
+        198,
+        283,
+        376
+      ],
+      "name": "c｜细胞标记热图"
+    },
+    "d": {
+      "bbox": [
+        290,
+        198,
+        535,
+        376
+      ],
+      "name": "d｜区域差异分析"
+    },
+    "e": {
+      "bbox": [
+        40,
+        381,
+        225,
+        540
+      ],
+      "name": "e｜组织影像与细胞标注"
+    },
+    "f": {
+      "bbox": [
+        239,
+        381,
+        363,
+        449
+      ],
+      "name": "f｜NB2面积统计"
+    },
+    "g": {
+      "bbox": [
+        239,
+        450,
+        363,
+        542
+      ],
+      "name": "g｜细胞组成热图"
+    },
+    "h": {
+      "bbox": [
+        383,
+        381,
+        535,
+        524
+      ],
+      "name": "h｜空间交互热图"
+    },
+    "i": {
+      "bbox": [
+        40,
+        540,
+        302,
+        699
+      ],
+      "name": "i｜细胞配对与巨噬细胞统计"
+    },
+    "j": {
+      "bbox": [
+        305,
+        539,
+        535,
+        701
+      ],
+      "name": "j｜空间影像及局部放大"
+    }
+  },
+  "raster_regions": [
+    {
+      "name": "a_Acquisition_artwork",
+      "bbox": [
+        171.5,
+        70,
+        223,
+        100
+      ],
+      "seqno": 85,
+      "dpi": 432,
+      "remove_text": true
+    }
+  ],
+  "images": {
+    "names_by_xref": {
+      "334": "a_lower_person_shadow_left",
+      "406": "a_lower_person_shadow_right",
+      "434": "a_upper_person_shadow_left",
+      "462": "a_upper_person_shadow_right",
+      "573": "a_acquired_tissue",
+      "576": "a_segmentation",
+      "577": "a_cell_annotation",
+      "578": "a_spatial_phenotyping",
+      "579": "b_tissue_overview"
+    },
+    "tiles_by_xref": {
+      "571": [
+        {
+          "name": "j_top_left",
+          "crop_px": [
+            0,
+            0,
+            564,
+            566
+          ]
+        },
+        {
+          "name": "j_top_right",
+          "crop_px": [
+            564,
+            0,
+            1131,
+            566
+          ]
+        },
+        {
+          "name": "j_bottom_left",
+          "crop_px": [
+            0,
+            566,
+            565,
+            1132
+          ]
+        },
+        {
+          "name": "j_zoom_top_left",
+          "crop_px": [
+            565,
+            566,
+            847,
+            845
+          ]
+        },
+        {
+          "name": "j_zoom_top_right",
+          "crop_px": [
+            847,
+            566,
+            1131,
+            845
+          ]
+        },
+        {
+          "name": "j_zoom_bottom_left",
+          "crop_px": [
+            565,
+            845,
+            847,
+            1132
+          ]
+        },
+        {
+          "name": "j_zoom_bottom_right",
+          "crop_px": [
+            847,
+            845,
+            1131,
+            1132
+          ]
+        }
+      ],
+      "572": [
+        {
+          "name": "e_r1_c1",
+          "crop_px": [
+            0,
+            0,
+            448,
+            448
+          ]
+        },
+        {
+          "name": "e_r1_c2",
+          "crop_px": [
+            448,
+            0,
+            891,
+            448
+          ]
+        },
+        {
+          "name": "e_r1_c3",
+          "crop_px": [
+            891,
+            0,
+            1338,
+            448
+          ]
+        },
+        {
+          "name": "e_r2_c1",
+          "crop_px": [
+            0,
+            448,
+            444,
+            897
+          ]
+        },
+        {
+          "name": "e_r2_c2",
+          "crop_px": [
+            444,
+            448,
+            891,
+            897
+          ]
+        },
+        {
+          "name": "e_r2_c3",
+          "crop_px": [
+            891,
+            448,
+            1338,
+            897
+          ]
+        }
+      ]
+    },
+    "shadows": {
+      "334": {
+        "form_xref": 327,
+        "form_name": "Fm2",
+        "page_content_xref": 6,
+        "graphics_state": "GS2"
+      },
+      "406": {
+        "form_xref": 399,
+        "form_name": "Fm3",
+        "page_content_xref": 6,
+        "graphics_state": "GS2"
+      },
+      "434": {
+        "form_xref": 427,
+        "form_name": "Fm4",
+        "page_content_xref": 6,
+        "graphics_state": "GS2"
+      },
+      "462": {
+        "form_xref": 455,
+        "form_name": "Fm5",
+        "page_content_xref": 6,
+        "graphics_state": "GS2"
+      }
+    },
+    "clips_by_xref": {
+      "579": {
+        "bbox": [
+          390.7690124511719,
+          57.50701904296875,
+          517.4320068359375,
+          179.68902587890625
+        ],
+        "flatten_background": "#FFFFFF"
+      }
+    }
+  },
+  "text": {
+    "baseline_factor": 0.994,
+    "font_map": [
+      {
+        "pattern": "Harding",
+        "family": "Times New Roman"
+      },
+      {
+        "pattern": ".*",
+        "family": "Arial"
+      }
+    ],
+    "adjustments": [
+      {
+        "panel": "i",
+        "regex": "^\\*+$",
+        "dy_pt": -0.75
+      }
+    ]
+  },
+  "expected": {
+    "text": 417,
+    "vector": 2121,
+    "image": 23,
+    "groups": 10
+  }
+}
